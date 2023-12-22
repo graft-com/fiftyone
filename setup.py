@@ -16,7 +16,7 @@ import re
 from setuptools import setup, find_packages
 
 
-VERSION = "0.24.0"
+VERSION = "0.24.1"
 
 
 def get_version():
@@ -50,7 +50,7 @@ INSTALL_REQUIRES = [
     # https://plotly.com/python/static-image-export/
     "kaleido!=0.2.1.post1",
     "matplotlib",
-    "mongoengine==0.24.2",
+    "mongoengine>=0.24.2",
     "motor>=2.5",
     "numpy",
     "packaging",
@@ -70,7 +70,7 @@ INSTALL_REQUIRES = [
     "sseclient-py>=1.7.2,<2",
     "sse-starlette>=0.10.3,<1",
     "starlette>=0.24.0",
-    "strawberry-graphql==0.138.1",
+    "strawberry-graphql>=0.138.1",
     "tabulate",
     "xmltodict",
     "universal-analytics-python3>=1.0.1,<2",
